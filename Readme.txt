@@ -19,16 +19,16 @@ SNO  Name                    Type              Description
 			            |--------------|
 1    static                 (Folder)      contains javascript files,css,images,fonts etc required for the website
 2    templates              (Folder)      contains html files required for the website
-3    app.yaml       		 (YAML)       project id ,js path,css path,crons and tasks etc are mentioned here
-4    cron.yaml  			 (YAML)       cron jobs are configure here
-5    index.yaml     		 (YAML)       auto generated file.composite indexes are auto generated here when 
+3    app.yaml                (YAML)       project id ,js path,css path,crons and tasks etc are mentioned here
+4    cron.yaml               (YAML)       cron jobs are configure here
+5    index.yaml              (YAML)       auto generated file.composite indexes are auto generated here when 
 										  it identifiees queryies in the python file.
-6    main.py  		         (File)       contains method for calling static methods like cacheFeaturedSpeaker 
+6    main.py  		     (File)       contains method for calling static methods like cacheFeaturedSpeaker 
 										  defined in conference.py file
 7    models.py               (File)       contains ndb model,request,response classes
-8    settings.py			 (File)       contains android,ios,web client ids for OAuth authentication
-9    utils.py				 (File)       contains helper methods.
-10   conference.py			 (File)       contains endpoint methods exposed by conference app is defined here
+8    settings.py	     (File)       contains android,ios,web client ids for OAuth authentication
+9    utils.py		     (File)       contains helper methods.
+10   conference.py	     (File)       contains endpoint methods exposed by conference app is defined here
 
 3)Prequisties and app creation
 
